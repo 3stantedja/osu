@@ -197,10 +197,10 @@ namespace osu.Game.Rulesets.Taiko
             switch (result)
             {
                 case HitResult.SmallTickHit:
-                    return "drum tick";
+                    return "Drum Tick";
 
                 case HitResult.SmallBonus:
-                    return "strong bonus";
+                    return "Strong Bonus";
             }
 
             return base.GetDisplayNameForHitResult(result);

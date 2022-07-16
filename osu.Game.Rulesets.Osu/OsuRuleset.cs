@@ -258,16 +258,16 @@ namespace osu.Game.Rulesets.Osu
             switch (result)
             {
                 case HitResult.LargeTickHit:
-                    return "slider tick";
+                    return "Slider Tick";
 
                 case HitResult.SmallTickHit:
-                    return "slider end";
+                    return "Slider End";
 
                 case HitResult.SmallBonus:
-                    return "spinner spin";
+                    return "Spinner Spin";
 
                 case HitResult.LargeBonus:
-                    return "spinner bonus";
+                    return "Spinner Bonus";
             }
 
             return base.GetDisplayNameForHitResult(result);

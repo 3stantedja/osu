@@ -167,10 +167,10 @@ namespace osu.Game.Rulesets.Catch
             switch (result)
             {
                 case HitResult.LargeTickHit:
-                    return "Large droplet";
+                    return "Large Droplet";
 
                 case HitResult.SmallTickHit:
-                    return "Small droplet";
+                    return "Small Droplet";
 
                 case HitResult.LargeBonus:
                     return "Banana";

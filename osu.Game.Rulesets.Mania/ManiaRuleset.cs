@@ -361,7 +361,7 @@ namespace osu.Game.Rulesets.Mania
             switch (result)
             {
                 case HitResult.LargeTickHit:
-                    return "hold tick";
+                    return "Hold Tick";
             }
 
             return base.GetDisplayNameForHitResult(result);
